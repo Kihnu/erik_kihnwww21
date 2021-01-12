@@ -1,3 +1,3 @@
 # new1
 
-Purpose is to practice use GitHub Desktop and Visual Studio Code editor.
+The purpose of this repository is to practice using GitHub Desktop, HTML and Visual Studio Code editor.
