@@ -1,4 +1,4 @@
-# new1
+# erikkihnwww21
 
 The purpose of this repository is to practice using GitHub Desktop, HTML and Visual Studio Code editor.
 
