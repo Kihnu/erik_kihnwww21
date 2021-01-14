@@ -1,0 +1,16 @@
+h2 {
+  color: rgb(216, 48, 48);
+  font-size-adjust: inherit;
+  font-style: oblique;
+}
+
+h3 {
+  color: khaki;
+}
+p {
+  background-color: lemonchiffon;
+}
+p.note {
+  background-color: lightcoral;
+  font-size: medium;
+}
