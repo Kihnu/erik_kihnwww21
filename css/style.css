@@ -3,6 +3,10 @@
   width: device-width;
 }
 
+.body {
+  background-color: rgb(206, 86, 86);
+}
+
 h2 {
   color: rgb(216, 48, 48);
   font-size-adjust: inherit;
