@@ -5,6 +5,13 @@
 
 .body {
   background-color: rgb(206, 86, 86);
+  font-family: "Times New Roman", Times, serif;
+  font-size: 16px;
+}
+
+h1 {
+  border-bottom: 2px solid red;
+  font-size: 16px;
 }
 
 h2 {
