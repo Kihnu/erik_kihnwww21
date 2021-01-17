@@ -3,6 +3,9 @@
   width: device-width;
 }
 
+header {
+  background-color: lavender;
+}
 body {
   background-color: rgba(7, 163, 103, 0.467);
   font-family: "Times New Roman", Times, serif;
