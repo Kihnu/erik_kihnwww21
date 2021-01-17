@@ -1,4 +1,4 @@
-# erikkihnwww21
+# erik_kihnwww21
 
 The purpose of this repository is to post school work from my web development course.
 
