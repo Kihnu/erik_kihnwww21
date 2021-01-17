@@ -3,16 +3,22 @@
 <head>
   <!-- The website user can't see code inside of head tags. -->
   <meta charset="UTF-8">
+  <!-- 
+    The width=device-width part sets the width of the page to follow the screen-width of the device (which will vary depending on the device). The initial-scale=1.0 part sets the initial zoom level when the page is first loaded by the browser. 
+  -->
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="author" content="Erik Kihn">
 
   <meta name="description" content="Site for my school project."
   <meta name="keywords" content="html,css, exercises for school">
   <title>School work</title>
+  <!-- Link to style.css --> 
   <link rel="stylesheet" href="./css/style.css">
 
-  <!-- Styles for image size, you only need to set width or height. HTML autosizes the image with width or height measurement -->
-  <!-- Rest of the styles are in style.css -->
+  
+  <!-- 
+    Styles for image size, you only need to set width or height. HTML autosizes the image with width or height measurement 
+  -->
   <style>
     .mann {
       height: 400px;
@@ -25,7 +31,7 @@
 <body>
   <header>
     <ul>
-      <li>Web Page's links</li>
+      <li>Web Page's Header</li>
       <li><a href="https://kihnu.github.io/erik_kihnwww21/index.html">Home</a></li>
       <li><a href="https://kihnu.github.io/erik_kihnwww21/projects.html">Projects</a></li>
       <li><a href="https://kihnu.github.io/erik_kihnwww21/aboutus.html">About Us</a></li>
@@ -54,7 +60,7 @@
           <p>Image is aligned to the right of the web page</p>
           <figure>
             <img src="images/Simon Mann.png" class="mann" alt="Simonn Mann" style="float: right">
-            <figcaption>Caption: Picture of Simon Mann</figcaption>
+            <figcaption style="float: right">Caption: Picture of Simon Mann</figcaption>
           </figure>
             <ul>
               <li><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae est commodi illum dicta culpa! Facere
@@ -72,9 +78,7 @@
           <p>In HTML5 the users cookies are stored locally on the user's browser. Audio and video playback no longer require additional plug-ins. You don't need Adobe Flash to play videos like in the old days. </p>
           <p>HTML5 gives the developer more control over the website site. HTML5 is more mobile support friendly. HTML5 allows drag and drop features.</p>
       <h2>Video for exercise 3</h2>
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/3uCiDb42UdA" frameborder="0"
-          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-          allowfullscreen></iframe>
+          <!-- Video -->
           <video controls="true">
           <source src="www.youtube.com/watch?v=3bGNuRtlqAQ" type="video/mp4" />
           </video>
