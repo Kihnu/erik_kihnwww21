@@ -5,6 +5,7 @@
 
 header {
   background-color: lavender;
+  color: rgb(0, 0, 0);
 }
 body {
   background-color: rgba(7, 163, 103, 0.467);
@@ -15,6 +16,7 @@ body {
 h1 {
   border-bottom: 3px solid red;
   font-size: 16px;
+  color: red;
 }
 
 h2 {
@@ -29,10 +31,6 @@ h3 {
 p {
   background-color: lemonchiffon;
 }
-p.note {
-  background-color: lightcoral;
-  font-size: medium;
-}
 
 .listWrap li {
   background-color: lightblue;
@@ -46,7 +44,7 @@ a:link {
 
 /* visited link */
 a:visited {
-  color: green;
+  color: rgba(25, 130, 186, 0.501);
 }
 
 /* mouse over link */
