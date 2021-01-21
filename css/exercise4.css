@@ -3,22 +3,19 @@
   margin: auto;
   width: 100%;
 }
-
-.topmenu {
+.leftbar {
   display: flex;
-  flex-flow: row wrap;
+  flex-direction: column;
+  background: rgba(0, 187, 255, 0.329);
+  width: 230px;
+}
+
+.header {
+  display: flex;
+  flex-flow: column;
   justify-content: center;
   margin-bottom: 5px;
   background-color: rgba(8, 62, 133, 0.699);
-}
-
-.navbar {
-  display: flex;
-  flex-direction: column;
-  margin: 5px;
-  padding: 5px;
-  width: 70%;
-  background: rgba(0, 187, 255, 0.329);
 }
 
 .flexgrow {
@@ -27,7 +24,9 @@
 }
 
 leftbar {
-  background: rgba(3, 13, 85, 0.185);
+  display: flex;
+  flex-direction: column;
+  background: rgba(0, 187, 255, 0.329);
   width: 230px;
 }
 
@@ -39,7 +38,6 @@ footer {
   background-color: rgba(8, 62, 133, 0.699);
 }
 
-/* OTHER TAGS */
 body {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   width: fit-content;
@@ -53,14 +51,14 @@ h1 {
 
 h2 {
   font-size: 25px;
-  color: rgba(38, 192, 184, 0.952);
+  color: rgb(31, 172, 167);
 }
 
 h3 {
   font-size: 15px;
   color: rgb(56, 56, 56);
   text-align: left;
-  padding-left: 20px;
+  padding-left: 10px;
 }
 
 p {
@@ -71,7 +69,6 @@ p {
 figcaption {
   font-size: 12px;
   font-style: italic;
-  text-align: center;
 }
 
 li {
