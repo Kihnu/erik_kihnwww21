@@ -24,8 +24,8 @@
 
 .flex-container {
   display: flex;
-  vertical-align: middle;
-  justify-content: center;
+  flex-direction: row;
+  justify-content: space-evenly;
 }
 
 leftbar {
@@ -37,10 +37,9 @@ leftbar {
 
 footer {
   height: 200px;
-  font-size: 14px;
-  text-align: left;
+  font-size: 20px;
   padding: 10px;
-  color: rgb(255, 255, 255);
+  margin: 5px;
   background-color: rgba(8, 62, 133, 0.699);
   flex-direction: row;
 }
