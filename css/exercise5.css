@@ -20,10 +20,6 @@ body {
   color: #fff;
 }
 
-.navbar {
-  background-color: lightskyblue;
-}
-
 .feature {
   color: #fff;
 }
@@ -36,4 +32,16 @@ body {
 .feature ul li {
   padding-left: 2rem;
   margin-bottom: 1rem;
+}
+
+footer{
+  color: #fff;
+  font-size 1rem;
+  margin: 0;
+  padding: 1rem;
+}
+
+a {
+ color: #fff;
+ text-decoration: none;
 }
