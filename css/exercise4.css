@@ -28,11 +28,13 @@
   justify-content: space-evenly;
 }
 
-leftbar {
+.leftbar {
   display: flex;
   flex-direction: column;
   background: rgba(0, 187, 255, 0.329);
   width: 230px;
+  display: inline;
+  list-style-type: none;
 }
 
 footer {
