@@ -3,12 +3,6 @@
   margin: auto;
   width: 100%;
 }
-.leftbar {
-  display: flex;
-  flex-direction: column;
-  background: rgba(0, 187, 255, 0.329);
-  width: 230px;
-}
 
 .header {
   display: flex;
@@ -28,22 +22,15 @@
   justify-content: space-evenly;
 }
 
-.leftbar {
-  display: flex;
-  flex-direction: column;
-  background: rgba(0, 187, 255, 0.329);
-  width: 230px;
-  display: inline;
-  list-style-type: none;
-}
-
 footer {
-  height: 200px;
+  height: 225px;
   font-size: 20px;
   padding: 10px;
   margin: 5px;
   background-color: rgba(8, 62, 133, 0.699);
   flex-direction: row;
+  width: 100%;
+  position: absolute;
 }
 
 body {
@@ -79,19 +66,29 @@ figcaption {
   font-style: italic;
 }
 
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 200px;
+  position: absolute;
+  height: 70%;
+  background-color: rgb(146, 209, 209);
+}
+
 li {
   padding-bottom: 2px;
   font-size: 14px;
+  text-align: left;
 }
 
 li a {
   display: block;
-  color: rgb(56, 56, 56);
+  color: rgb(0, 0, 0);
   padding: 10px 20px;
   font-size: 16px;
   text-decoration: none;
-  border-top: rgba(112, 24, 116, 0.329) solid 1px;
-  width: 120px;
+  border-top: rgba(1, 90, 255, 0.329) solid 1px;
 }
 
 li a:hover {
