@@ -74,12 +74,6 @@ p {
   color: rgb(56, 56, 56);
 }
 
-ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-}
-
 figcaption {
   font-size: 12px;
   font-style: italic;
@@ -97,6 +91,7 @@ li a {
   font-size: 16px;
   text-decoration: none;
   border-top: rgba(112, 24, 116, 0.329) solid 1px;
+  width: 120px;
 }
 
 li a:hover {
